@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const { Client, Intents } = require('discord.js');
-const robot = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MESSAGE_TYPING] });
+const robot = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MESSAGE_TYPING, Intents.FLAGS.GUILD_PRESENCES] });
 const {sender} = require('./lib/utils.js');
 const {chats} = require('./json/config.json')
 
