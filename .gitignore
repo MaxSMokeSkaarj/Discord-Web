@@ -1,6 +1,7 @@
 json/config.json
+json/db.json
 
-# Logs
+#Logs
 logs
 *.log
 npm-debug.log*
